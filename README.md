@@ -30,7 +30,7 @@
 首先，將專案倉庫克隆到您的本地機器上：
 
 ```bash
-git clone [https://github.com/](https://github.com/)[您的用戶名]/sentiment-analysis-api.git
+git clone https://github.com/BpsEason/sentiment-analysis-api.git
 cd sentiment-analysis-api
 ```
 
