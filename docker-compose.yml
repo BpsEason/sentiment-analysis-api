@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  sentiment-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      # 可選：設定環境變數，如模型路徑
+      # MODEL_NAME: "distilbert-base-uncased-finetuned-sst-2-english"
+    restart: always
